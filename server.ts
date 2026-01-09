@@ -10,11 +10,12 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health-check", (req, res) => {
+  console.log("GET /health-check");
   res.send("OK");
 });
 
 app.post("/scanner-to-raw", (req, res) => {
-  console.log("body", req.body);
+  console.log("POST /scanner-to-raw\n", req.body);
   res.json({ msg: "Hi from web server" });
 });
 
