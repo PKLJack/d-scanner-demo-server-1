@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "type": "module",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
