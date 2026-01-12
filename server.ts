@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 
 app.get("/health-check", (req, res) => {
   console.log("GET /health-check");
-  res.send("OK");
+  res.send("OK,OOKK");
 });
 
 app.post("/scanner-to-raw", (req, res) => {
